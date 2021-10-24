@@ -1,3 +1,3 @@
 Copyright (c) 2019 reinfer Ltd.
 
-Permission 
+Permission is
