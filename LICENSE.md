@@ -1,3 +1,3 @@
 Copyright (c) 2019 reinfer Ltd.
 
-Permission is hereb
+Permission is hereby g
