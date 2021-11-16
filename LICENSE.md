@@ -1,3 +1,3 @@
 Copyright (c) 2019 reinfer Ltd.
 
-Permission is hereby granted, free of charg
+Permission is hereby granted, free of charge
