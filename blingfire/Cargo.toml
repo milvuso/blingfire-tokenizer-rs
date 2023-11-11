@@ -5,3 +5,5 @@ version = "1.0.0"
 authors = ["reinfer Ltd. <eng@reinfer.io>"]
 edition = "2018"
 description = "Wrapper for the BlingFire tokenization library"
+homepage = "https://github.com/reinfer/blingfire-rs"
+repository = "https://github.com/reinfer/blingfire-rs"
