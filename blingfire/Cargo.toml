@@ -13,3 +13,7 @@ keywords = [
     "machine-learning",
     "blingfire",
 ]
+license = "MIT"
+
+[dependencies]
+blingfire-sys = { path = "../blingfire-sys", version = "1.0.1" }
