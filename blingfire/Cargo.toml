@@ -10,3 +10,5 @@ repository = "https://github.com/reinfer/blingfire-rs"
 keywords = [
     "nlp",
     "tokenizer",
+    "machine-learning",
+    "blingfire",
