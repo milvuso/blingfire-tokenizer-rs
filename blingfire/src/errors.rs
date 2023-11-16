@@ -5,3 +5,6 @@ use std::result::Result as StdResult;
 /// Error enum encoding tokenization errors.
 #[derive(Debug, Snafu, PartialEq)]
 #[snafu(visibility = "pub")]
+pub enum Error {
+    /// Source buffer is too large (capacity > MAX_TEXT_LENGTH).
+    #[snafu(display("Source buffer is too large (capacity > {}).", max_text_length))]
