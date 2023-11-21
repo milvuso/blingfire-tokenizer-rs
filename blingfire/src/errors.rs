@@ -14,3 +14,7 @@ pub enum Error {
     #[snafu(display(
         "An unknown error caused the tokenizer to fail (the C++ function returned -1)."
     ))]
+    UnknownError,
+}
+
+/// Result of calling the tokenizer functions.
