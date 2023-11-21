@@ -18,3 +18,4 @@ pub enum Error {
 }
 
 /// Result of calling the tokenizer functions.
+pub type Result<T, E = Error> = StdResult<T, E>;
