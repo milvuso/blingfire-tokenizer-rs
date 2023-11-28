@@ -14,3 +14,5 @@ use std::{
     i32,
     os::raw::{c_char, c_int},
 };
+
+pub use crate::errors::{Error, Result};
