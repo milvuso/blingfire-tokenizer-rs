@@ -11,3 +11,6 @@ use blingfire_sys::{
 use snafu::{self, ensure};
 use std::{
     convert::TryInto,
+    i32,
+    os::raw::{c_char, c_int},
+};
