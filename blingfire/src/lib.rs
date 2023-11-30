@@ -16,3 +16,7 @@ use std::{
 };
 
 pub use crate::errors::{Error, Result};
+
+/// The maximum valid size of the input text for the tokenizer functions.
+/// Re-exported from the C++ library.
+pub const MAX_TEXT_LENGTH: usize = FA_LIMITS_MAX_ARRAY_SIZE as usize;
