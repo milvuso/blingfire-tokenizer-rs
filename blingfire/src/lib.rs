@@ -20,3 +20,10 @@ pub use crate::errors::{Error, Result};
 /// The maximum valid size of the input text for the tokenizer functions.
 /// Re-exported from the C++ library.
 pub const MAX_TEXT_LENGTH: usize = FA_LIMITS_MAX_ARRAY_SIZE as usize;
+
+/// Tokenizes a piece of text into words separated by whitespace.
+///
+/// The result of the tokenization operation is stored in the string
+/// `destination`. The string will first be cleared.
+///
+/// ## Errors
