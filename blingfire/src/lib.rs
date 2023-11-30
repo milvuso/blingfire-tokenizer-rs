@@ -27,3 +27,9 @@ pub const MAX_TEXT_LENGTH: usize = FA_LIMITS_MAX_ARRAY_SIZE as usize;
 /// `destination`. The string will first be cleared.
 ///
 /// ## Errors
+///
+/// This method returns an error when the input string is too large or when the
+/// C++ function fails for an unknown reason (i.e. returns -1).
+///
+/// ## Example
+///
