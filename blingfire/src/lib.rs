@@ -33,3 +33,9 @@ pub const MAX_TEXT_LENGTH: usize = FA_LIMITS_MAX_ARRAY_SIZE as usize;
 ///
 /// ## Example
 ///
+/// ```
+/// # fn main() -> Result<(), blingfire::Error> {
+///     let mut parsed = String::new();
+///     blingfire::text_to_words("Cat,sat on   the mat.", &mut parsed)?;
+///     assert_eq!(parsed.as_str(), "Cat , sat on the mat .");
+///     # Ok(())
