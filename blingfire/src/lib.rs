@@ -43,3 +43,5 @@ pub const MAX_TEXT_LENGTH: usize = FA_LIMITS_MAX_ARRAY_SIZE as usize;
 /// ```
 #[inline]
 pub fn text_to_words(source: &str, destination: &mut String) -> Result<()> {
+    tokenize(text_to_words_ffi, source, destination)
+}
