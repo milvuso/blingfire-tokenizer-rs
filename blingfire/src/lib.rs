@@ -47,3 +47,8 @@ pub fn text_to_words(source: &str, destination: &mut String) -> Result<()> {
 }
 
 /// Tokenizes a piece of text into sentences separated by whitespace.
+///
+/// The result of the tokenization operation is stored in the string
+/// `destination`. The string will first be cleared.
+///
+/// ## Errors
