@@ -58,3 +58,6 @@ pub fn text_to_words(source: &str, destination: &mut String) -> Result<()> {
 ///
 /// ## Example
 ///
+/// ```
+/// # fn main() -> Result<(), blingfire::Error> {
+///     let mut parsed = String::new();
