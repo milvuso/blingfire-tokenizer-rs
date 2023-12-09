@@ -55,3 +55,6 @@ pub fn text_to_words(source: &str, destination: &mut String) -> Result<()> {
 ///
 /// This method returns an error when the input string is too large or when the
 /// C++ function fails for an unknown reason (i.e. returns -1).
+///
+/// ## Example
+///
