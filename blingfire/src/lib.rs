@@ -61,3 +61,7 @@ pub fn text_to_words(source: &str, destination: &mut String) -> Result<()> {
 /// ```
 /// # fn main() -> Result<(), blingfire::Error> {
 ///     let mut parsed = String::new();
+///     blingfire::text_to_sentences("Cat sat. Dog barked.", &mut parsed).unwrap();
+///     assert_eq!(parsed.as_str(), "Cat sat.\nDog barked.");
+///     # Ok(())
+/// # }
