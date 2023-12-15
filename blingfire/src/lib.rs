@@ -68,3 +68,7 @@ pub fn text_to_words(source: &str, destination: &mut String) -> Result<()> {
 /// ```
 #[inline]
 pub fn text_to_sentences(source: &str, destination: &mut String) -> Result<()> {
+    tokenize(text_to_sentences_ffi, source, destination)
+}
+
+type Tokenizer = unsafe extern "C" fn(*const c_char, c_int, *mut c_char, c_int) -> c_int;
