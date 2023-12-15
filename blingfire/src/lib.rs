@@ -65,3 +65,6 @@ pub fn text_to_words(source: &str, destination: &mut String) -> Result<()> {
 ///     assert_eq!(parsed.as_str(), "Cat sat.\nDog barked.");
 ///     # Ok(())
 /// # }
+/// ```
+#[inline]
+pub fn text_to_sentences(source: &str, destination: &mut String) -> Result<()> {
