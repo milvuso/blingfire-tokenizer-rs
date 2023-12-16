@@ -75,3 +75,6 @@ type Tokenizer = unsafe extern "C" fn(*const c_char, c_int, *mut c_char, c_int) 
 
 #[inline]
 fn tokenize(tokenizer: Tokenizer, source: &str, destination: &mut String) -> Result<()>
+where
+{
+    destination.clear();
