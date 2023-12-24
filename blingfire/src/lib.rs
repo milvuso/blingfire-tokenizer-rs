@@ -78,3 +78,9 @@ fn tokenize(tokenizer: Tokenizer, source: &str, destination: &mut String) -> Res
 where
 {
     destination.clear();
+
+    if source.is_empty() {
+        return Ok(());
+    }
+
+    let source_len = source.len();
