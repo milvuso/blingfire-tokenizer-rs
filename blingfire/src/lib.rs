@@ -84,3 +84,5 @@ where
     }
 
     let source_len = source.len();
+    ensure!(
+        source_len <= MAX_TEXT_LENGTH,
