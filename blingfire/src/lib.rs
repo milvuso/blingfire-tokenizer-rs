@@ -86,3 +86,7 @@ where
     let source_len = source.len();
     ensure!(
         source_len <= MAX_TEXT_LENGTH,
+        errors::SourceTooLarge {
+            max_text_length: MAX_TEXT_LENGTH
+        }
+    );
