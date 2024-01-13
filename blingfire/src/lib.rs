@@ -91,3 +91,6 @@ where
         }
     );
     let source_len = source_len as c_int;
+
+    loop {
+        let length = unsafe {
