@@ -96,3 +96,4 @@ where
         let length = unsafe {
             tokenizer(
                 source.as_ptr() as *const c_char,
+                source_len,
