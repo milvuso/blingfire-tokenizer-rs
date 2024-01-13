@@ -90,3 +90,4 @@ where
             max_text_length: MAX_TEXT_LENGTH
         }
     );
+    let source_len = source_len as c_int;
