@@ -97,3 +97,7 @@ where
             tokenizer(
                 source.as_ptr() as *const c_char,
                 source_len,
+                destination.as_mut_ptr() as *mut c_char,
+                destination.capacity().try_into().unwrap_or(i32::MAX),
+            )
+        };
