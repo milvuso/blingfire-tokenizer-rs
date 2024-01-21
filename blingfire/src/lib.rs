@@ -101,3 +101,6 @@ where
                 destination.capacity().try_into().unwrap_or(i32::MAX),
             )
         };
+
+        // The C++ function returned -1, an unknown error.
+        ensure!(length > 0, errors::UnknownError);
