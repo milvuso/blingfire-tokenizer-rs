@@ -109,3 +109,6 @@ where
             // There was not enough capacity in `destination` to store the parsed text.
             // Although the C++ function allocated an internal buffer with the parsed text, that's
             // not exposed. We'll have to reserve `length` bytes in `destination` (as
+            // `destination.len() == 0`) and parse the `source` string again.
+            destination.reserve_exact(length as usize);
+            continue;
