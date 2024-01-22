@@ -104,3 +104,8 @@ where
 
         // The C++ function returned -1, an unknown error.
         ensure!(length > 0, errors::UnknownError);
+
+        if length as usize > destination.capacity() {
+            // There was not enough capacity in `destination` to store the parsed text.
+            // Although the C++ function allocated an internal buffer with the parsed text, that's
+            // not exposed. We'll have to reserve `length` bytes in `destination` (as
