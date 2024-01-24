@@ -112,3 +112,6 @@ where
             // `destination.len() == 0`) and parse the `source` string again.
             destination.reserve_exact(length as usize);
             continue;
+        } else {
+            // The text was successfully parsed, set the length to the return value (-1 for the
+            // null character).
