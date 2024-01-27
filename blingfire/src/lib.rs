@@ -115,3 +115,5 @@ where
         } else {
             // The text was successfully parsed, set the length to the return value (-1 for the
             // null character).
+            unsafe {
+                destination.as_mut_vec().set_len(length as usize - 1);
