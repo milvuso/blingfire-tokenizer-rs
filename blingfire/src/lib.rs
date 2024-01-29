@@ -123,3 +123,6 @@ where
     }
 
     Ok(())
+}
+
+#[cfg(test)]
