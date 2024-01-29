@@ -119,3 +119,7 @@ where
                 destination.as_mut_vec().set_len(length as usize - 1);
             }
             break;
+        }
+    }
+
+    Ok(())
