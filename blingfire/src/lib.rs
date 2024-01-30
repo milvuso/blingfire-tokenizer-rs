@@ -130,3 +130,5 @@ mod tests {
     use super::{errors::Error, text_to_sentences, text_to_words, MAX_TEXT_LENGTH};
 
     const TEST_TEXT: &str = "I think. Sometimes, that my use of\ncommas, (and, occasionally, exclamation marks) can be excessive!!";
+    const TEST_TEXT_WORDS: &str = "I think . Sometimes , that my use of commas , ( and , occasionally , exclamation marks ) can be excessive ! !";
+    const TEST_TEXT_SENTENCES: &str = "I think.\nSometimes, that my use of commas, (and, occasionally, exclamation marks) can be excessive!!";
