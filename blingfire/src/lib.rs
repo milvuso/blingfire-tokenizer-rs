@@ -126,3 +126,7 @@ where
 }
 
 #[cfg(test)]
+mod tests {
+    use super::{errors::Error, text_to_sentences, text_to_words, MAX_TEXT_LENGTH};
+
+    const TEST_TEXT: &str = "I think. Sometimes, that my use of\ncommas, (and, occasionally, exclamation marks) can be excessive!!";
