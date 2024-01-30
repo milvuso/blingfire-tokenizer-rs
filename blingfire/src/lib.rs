@@ -132,3 +132,6 @@ mod tests {
     const TEST_TEXT: &str = "I think. Sometimes, that my use of\ncommas, (and, occasionally, exclamation marks) can be excessive!!";
     const TEST_TEXT_WORDS: &str = "I think . Sometimes , that my use of commas , ( and , occasionally , exclamation marks ) can be excessive ! !";
     const TEST_TEXT_SENTENCES: &str = "I think.\nSometimes, that my use of commas, (and, occasionally, exclamation marks) can be excessive!!";
+
+    #[test]
+    fn text_to_words_new_string() {
