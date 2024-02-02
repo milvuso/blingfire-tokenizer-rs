@@ -135,3 +135,5 @@ mod tests {
 
     #[test]
     fn text_to_words_new_string() {
+        let mut parsed = String::new();
+        text_to_words(TEST_TEXT, &mut parsed).unwrap();
