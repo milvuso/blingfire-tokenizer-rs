@@ -152,3 +152,8 @@ mod tests {
         // This test interesting due to the nul character.
         let mut parsed = String::with_capacity(TEST_TEXT_WORDS.len());
         text_to_words(TEST_TEXT, &mut parsed).unwrap();
+        assert_eq!(TEST_TEXT_WORDS, parsed.as_str());
+    }
+
+    #[test]
+    fn text_to_words_string_of_exactly_correct_size() {
