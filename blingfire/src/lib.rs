@@ -161,3 +161,4 @@ mod tests {
         text_to_words(TEST_TEXT, &mut parsed).unwrap();
         assert_eq!(TEST_TEXT_WORDS, parsed.as_str());
         assert_eq!(TEST_TEXT_WORDS.len() + 1, parsed.capacity());
+    }
