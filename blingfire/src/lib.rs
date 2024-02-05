@@ -166,3 +166,5 @@ mod tests {
     #[test]
     fn text_to_words_string_of_larger_size() {
         let initial_capacity = TEST_TEXT_WORDS.len() + 10;
+        let mut parsed = String::with_capacity(initial_capacity);
+        parsed.push_str("uninitialised");
