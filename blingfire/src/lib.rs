@@ -162,3 +162,7 @@ mod tests {
         assert_eq!(TEST_TEXT_WORDS, parsed.as_str());
         assert_eq!(TEST_TEXT_WORDS.len() + 1, parsed.capacity());
     }
+
+    #[test]
+    fn text_to_words_string_of_larger_size() {
+        let initial_capacity = TEST_TEXT_WORDS.len() + 10;
