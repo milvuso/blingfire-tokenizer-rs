@@ -170,3 +170,5 @@ mod tests {
         parsed.push_str("uninitialised");
         text_to_words(TEST_TEXT, &mut parsed).unwrap();
         assert_eq!(TEST_TEXT_WORDS, parsed.as_str());
+        assert_eq!(initial_capacity, parsed.capacity());
+    }
