@@ -172,3 +172,5 @@ mod tests {
         assert_eq!(TEST_TEXT_WORDS, parsed.as_str());
         assert_eq!(initial_capacity, parsed.capacity());
     }
+
+    #[test]
