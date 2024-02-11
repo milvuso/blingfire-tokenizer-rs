@@ -174,3 +174,7 @@ mod tests {
     }
 
     #[test]
+    fn text_to_words_string_too_long() {
+        let source = String::from_utf8(vec![b'.'; MAX_TEXT_LENGTH + 1]).unwrap();
+        let mut destination = String::new();
+        let result = text_to_words(&source, &mut destination);
