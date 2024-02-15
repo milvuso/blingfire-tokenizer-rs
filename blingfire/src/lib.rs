@@ -184,3 +184,8 @@ mod tests {
                     == Error::SourceTooLarge {
                         max_text_length: MAX_TEXT_LENGTH
                     }
+        );
+    }
+
+    #[test]
+    fn text_to_sentences_new_string() {
