@@ -178,3 +178,9 @@ mod tests {
         let source = String::from_utf8(vec![b'.'; MAX_TEXT_LENGTH + 1]).unwrap();
         let mut destination = String::new();
         let result = text_to_words(&source, &mut destination);
+        assert!(
+            result.is_err()
+                && result.unwrap_err()
+                    == Error::SourceTooLarge {
+                        max_text_length: MAX_TEXT_LENGTH
+                    }
