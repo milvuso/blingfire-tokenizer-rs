@@ -200,3 +200,8 @@ mod tests {
         text_to_sentences(TEST_TEXT, &mut parsed).unwrap();
         assert_eq!(TEST_TEXT_SENTENCES, parsed.as_str());
     }
+
+    #[test]
+    fn text_to_sentences_string_one_smaller_than_output() {
+        // This test interesting due to the nul character.
+        let mut parsed = String::with_capacity(TEST_TEXT_SENTENCES.len());
