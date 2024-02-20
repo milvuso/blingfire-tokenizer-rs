@@ -211,3 +211,8 @@ mod tests {
 
     #[test]
     fn text_to_sentences_string_of_exactly_correct_size() {
+        let mut parsed = String::with_capacity(TEST_TEXT_SENTENCES.len() + 1);
+        text_to_sentences(TEST_TEXT, &mut parsed).unwrap();
+        assert_eq!(TEST_TEXT_SENTENCES, parsed.as_str());
+        assert_eq!(TEST_TEXT_SENTENCES.len() + 1, parsed.capacity());
+    }
