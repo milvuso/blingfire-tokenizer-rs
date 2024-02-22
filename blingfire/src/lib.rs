@@ -220,3 +220,5 @@ mod tests {
     #[test]
     fn text_to_sentences_string_of_larger_size() {
         let initial_capacity = TEST_TEXT_SENTENCES.len() + 10;
+        let mut parsed = String::with_capacity(initial_capacity);
+        parsed.push_str("uninitialised");
