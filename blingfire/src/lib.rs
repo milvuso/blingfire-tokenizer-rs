@@ -222,3 +222,7 @@ mod tests {
         let initial_capacity = TEST_TEXT_SENTENCES.len() + 10;
         let mut parsed = String::with_capacity(initial_capacity);
         parsed.push_str("uninitialised");
+        text_to_sentences(TEST_TEXT, &mut parsed).unwrap();
+        assert_eq!(TEST_TEXT_SENTENCES, parsed.as_str());
+        assert_eq!(initial_capacity, parsed.capacity());
+    }
