@@ -226,3 +226,4 @@ mod tests {
         assert_eq!(TEST_TEXT_SENTENCES, parsed.as_str());
         assert_eq!(initial_capacity, parsed.capacity());
     }
+}
