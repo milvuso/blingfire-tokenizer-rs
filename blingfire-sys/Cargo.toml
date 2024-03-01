@@ -2,3 +2,7 @@
 [package]
 name = "blingfire-sys"
 version = "1.0.1"
+authors = ["reinfer Ltd. <eng@reinfer.io>"]
+edition = "2018"
+description = "Bindings to the BlingFire C++ library"
+homepage = "https://github.com/reinfer/blingfire-rs"
