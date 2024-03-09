@@ -14,3 +14,10 @@ keywords = [
     "blingfire",
 ]
 license = "MIT"
+
+build = "build.rs"
+links = "blingfiretokdll"
+
+exclude = [
+    "BlingFire/blingfirecompile.library",
+    "BlingFire/ldbsrc",
