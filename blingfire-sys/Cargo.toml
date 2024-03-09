@@ -25,3 +25,4 @@ exclude = [
     "BlingFire/scripts",
     "BlingFire/projs",
     "BlingFire/azure-pipelines.yml",
+]
