@@ -8,3 +8,5 @@ description = "Bindings to the BlingFire C++ library"
 homepage = "https://github.com/reinfer/blingfire-rs"
 repository = "https://github.com/reinfer/blingfire-rs"
 keywords = [
+    "nlp",
+    "tokenizer",
