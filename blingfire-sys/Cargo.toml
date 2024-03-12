@@ -26,3 +26,5 @@ exclude = [
     "BlingFire/projs",
     "BlingFire/azure-pipelines.yml",
 ]
+
+[build-dependencies]
