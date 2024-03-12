@@ -28,3 +28,4 @@ exclude = [
 ]
 
 [build-dependencies]
+cmake = "0.1.44"
