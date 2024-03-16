@@ -8,3 +8,5 @@ fn main() {
         .define("BLING_FIRE_VERSION_MINOR", "0")
         .build_target("blingfiretokdll_static")
         .build();
+
+    println!(
