@@ -10,3 +10,5 @@ fn main() {
         .build();
 
     println!(
+        "cargo:rustc-link-search=native={}/build",
+        destination.display()
