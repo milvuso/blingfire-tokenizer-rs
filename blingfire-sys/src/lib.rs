@@ -14,3 +14,7 @@ pub const FALimits_MaxArrSize: FALimits__bindgen_ty_1 = 1000000000;
 pub const FALimits_MaxChainSize: FALimits__bindgen_ty_1 = 1000000000;
 pub const FALimits_MaxStateVal: FALimits__bindgen_ty_1 = 1000000000;
 pub const FALimits_MaxIwVal: FALimits__bindgen_ty_1 = 1000000000;
+pub const FALimits_MaxIw: FALimits__bindgen_ty_1 = 1000000000;
+pub const FALimits_MaxLdbDumpCount: FALimits__bindgen_ty_1 = 105;
+pub const FALimits_MaxWordLen: FALimits__bindgen_ty_1 = 300;
+pub const FALimits_MaxWordSize: FALimits__bindgen_ty_1 = 300;
