@@ -10,3 +10,7 @@
 pub struct FALimits {
     pub _address: u8,
 }
+pub const FALimits_MaxArrSize: FALimits__bindgen_ty_1 = 1000000000;
+pub const FALimits_MaxChainSize: FALimits__bindgen_ty_1 = 1000000000;
+pub const FALimits_MaxStateVal: FALimits__bindgen_ty_1 = 1000000000;
+pub const FALimits_MaxIwVal: FALimits__bindgen_ty_1 = 1000000000;
