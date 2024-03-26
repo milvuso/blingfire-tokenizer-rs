@@ -15,3 +15,5 @@ fn main() {
     );
     println!("cargo:rustc-link-lib=static=blingfiretokdll_static");
     println!("cargo:rustc-link-lib=static=fsaClient");
+    println!("cargo:rustc-link-lib=stdc++");
+}
