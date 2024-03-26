@@ -18,3 +18,5 @@ pub const FALimits_MaxIw: FALimits__bindgen_ty_1 = 1000000000;
 pub const FALimits_MaxLdbDumpCount: FALimits__bindgen_ty_1 = 105;
 pub const FALimits_MaxWordLen: FALimits__bindgen_ty_1 = 300;
 pub const FALimits_MaxWordSize: FALimits__bindgen_ty_1 = 300;
+pub const FALimits_MaxWordCount: FALimits__bindgen_ty_1 = 1000;
+pub const FALimits_MaxParadigmSize: FALimits__bindgen_ty_1 = 1000;
