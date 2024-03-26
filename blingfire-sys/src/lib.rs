@@ -5,3 +5,8 @@
 #[doc = ""]
 #[doc = " This class defines global limits for input and output of all modules."]
 #[doc = ""]
+#[repr(C)]
+#[derive(Debug, Copy, Clone)]
+pub struct FALimits {
+    pub _address: u8,
+}
