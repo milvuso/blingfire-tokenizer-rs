@@ -33,3 +33,6 @@ fn bindgen_test_layout_FALimits() {
         concat!("Size of: ", stringify!(FALimits))
     );
     assert_eq!(
+        ::std::mem::align_of::<FALimits>(),
+        1usize,
+        concat!("Alignment of ", stringify!(FALimits))
