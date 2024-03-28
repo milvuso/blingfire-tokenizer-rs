@@ -27,3 +27,5 @@ pub const FALimits_MaxGram: FALimits__bindgen_ty_1 = 4;
 pub type FALimits__bindgen_ty_1 = u32;
 #[test]
 fn bindgen_test_layout_FALimits() {
+    assert_eq!(
+        ::std::mem::size_of::<FALimits>(),
