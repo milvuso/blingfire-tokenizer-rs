@@ -22,3 +22,5 @@ pub const FALimits_MaxWordCount: FALimits__bindgen_ty_1 = 1000;
 pub const FALimits_MaxParadigmSize: FALimits__bindgen_ty_1 = 1000;
 pub const FALimits_MaxTagsPerWord: FALimits__bindgen_ty_1 = 100;
 pub const FALimits_MinTag: FALimits__bindgen_ty_1 = 1;
+pub const FALimits_MaxTag: FALimits__bindgen_ty_1 = 65535;
+pub const FALimits_MaxGram: FALimits__bindgen_ty_1 = 4;
