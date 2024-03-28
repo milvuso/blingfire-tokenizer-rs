@@ -24,3 +24,6 @@ pub const FALimits_MaxTagsPerWord: FALimits__bindgen_ty_1 = 100;
 pub const FALimits_MinTag: FALimits__bindgen_ty_1 = 1;
 pub const FALimits_MaxTag: FALimits__bindgen_ty_1 = 65535;
 pub const FALimits_MaxGram: FALimits__bindgen_ty_1 = 4;
+pub type FALimits__bindgen_ty_1 = u32;
+#[test]
+fn bindgen_test_layout_FALimits() {
