@@ -32,3 +32,4 @@ fn bindgen_test_layout_FALimits() {
         1usize,
         concat!("Size of: ", stringify!(FALimits))
     );
+    assert_eq!(
