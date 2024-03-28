@@ -38,3 +38,6 @@ fn bindgen_test_layout_FALimits() {
         concat!("Alignment of ", stringify!(FALimits))
     );
 }
+extern "C" {
+    pub fn TextToSentences(
+        pInUtf8Str: *const ::std::os::raw::c_char,
