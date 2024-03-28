@@ -29,3 +29,6 @@ pub type FALimits__bindgen_ty_1 = u32;
 fn bindgen_test_layout_FALimits() {
     assert_eq!(
         ::std::mem::size_of::<FALimits>(),
+        1usize,
+        concat!("Size of: ", stringify!(FALimits))
+    );
