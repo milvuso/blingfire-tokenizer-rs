@@ -44,3 +44,6 @@ extern "C" {
         InUtf8StrByteCount: ::std::os::raw::c_int,
         pOutUtf8Str: *mut ::std::os::raw::c_char,
         MaxOutUtf8StrByteCount: ::std::os::raw::c_int,
+    ) -> ::std::os::raw::c_int;
+}
+extern "C" {
