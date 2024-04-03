@@ -48,3 +48,6 @@ extern "C" {
 }
 extern "C" {
     pub fn TextToWords(
+        pInUtf8Str: *const ::std::os::raw::c_char,
+        InUtf8StrByteCount: ::std::os::raw::c_int,
+        pOutUtf8Str: *mut ::std::os::raw::c_char,
