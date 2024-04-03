@@ -51,3 +51,5 @@ extern "C" {
         pInUtf8Str: *const ::std::os::raw::c_char,
         InUtf8StrByteCount: ::std::os::raw::c_int,
         pOutUtf8Str: *mut ::std::os::raw::c_char,
+        MaxOutUtf8StrByteCount: ::std::os::raw::c_int,
+    ) -> ::std::os::raw::c_int;
