@@ -6,3 +6,5 @@
 # BlingFire Tokenizer in Rust
 
 `blingfire` is a convenient Rust wrapper for the [BlingFire](https://github.com/microsoft/BlingFire) tokenization library.
+
+Add the library to your project's `Cargo.toml` file to start using it
