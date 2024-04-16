@@ -15,3 +15,6 @@ cargo add blingfire
 The library furnishes two key functions `text_to_words` and `text_to_sentences`
 ```rust
 use blingfire;
+
+fn main() {
+    let mut parsed = String::new();
