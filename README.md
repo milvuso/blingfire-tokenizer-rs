@@ -25,3 +25,6 @@ fn main() {
     blingfire::text_to_sentences("Cat sat. Dog barked.", &mut parsed).unwrap();
     assert_eq!(parsed.as_str(), "Cat sat.\nDog barked.");
 }
+```
+
+This project is licensed under MIT License.
